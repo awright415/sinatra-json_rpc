@@ -41,7 +41,7 @@ module Sinatra
           if @rpc_req.params.is_a?(Array)
             @params[:splat] = *@rpc_req.params
           else
-            @rpc_req.params.each { |k,v| params[k.to_sym] = v }
+            @rpc_req.params.each { |k,v| params[k] = v }
           end
         end
       end
