@@ -71,6 +71,11 @@ module Sinatra
         send_error -32603
       end
 
+      app.error Sinatra::JsonRpc::InvalidParams do
+        status 400
+        send_error -32602
+      end
+
       app.error 400 do
         send_error -32602 if body.first.start_with?("Invalid parameter")
       end
