@@ -5,7 +5,7 @@ require 'sinatra/json_rpc/response'
 require 'sinatra/param'
 require 'sinatra/base'
 require 'multi_json'
-require 'JSON'
+require 'json'
 
 module Sinatra
   module JsonRpc
