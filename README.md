@@ -4,11 +4,11 @@ Basic implementation of [JSON-RPC 2.0](http://www.jsonrpc.org/specification) for
 
 ### TO-DO:
 
-[ ] Improve/DRY up tests
-[ ] Create a sample app
-[ ] Add support for batch requests, per JSON-RPC spec
-[ ] Improve handling of array-based params
-[ ] Improve support for error messages, especially around the validation errors
+- [ ] Improve/DRY up tests
+- [ ] Create a sample app
+- [ ] Add support for batch requests, per JSON-RPC spec
+- [ ] Improve handling of array-based params
+- [ ] Improve support for error messages, especially around the validation errors
 
 ## Installation
 
