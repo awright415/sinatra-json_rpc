@@ -84,7 +84,7 @@ post '/', :method => 'foo' do
 end
 ```
 
-You'll notice that the parameters passed in via the JSON-RPC request have been added to Sinatra's standard `params` hash. If the request params are sent as an object, values are available in `params` via their hash keys. If the params are sent an an array, the array is stored in `params[:splat]`. Array example:
+You'll notice that the parameters passed in via the JSON-RPC request have been added to Sinatra's standard `params` hash. If the request params are sent as an object, values are available in `params` via their hash keys. If the params are sent as an array, the array is stored in `params[:splat]`. Array example:
 
 ```ruby
 # With [1, 2] passed in as request parameters
